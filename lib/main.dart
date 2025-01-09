@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'Hey, are you X?',
+                    'Hey, are you Soup?',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -97,7 +97,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
                   const SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: () {
-                      if(_controller.text == 'soup'){
+                      if(_controller.text == 'suppu that is'){
                         Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => WishScreen())
